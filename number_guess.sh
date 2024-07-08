@@ -34,9 +34,9 @@ INIT() {
 # get user_id
     USER_ID=$($PSQL "SELECT user_id FROM users WHERE user_name = '$USERNAME'")
   fi
-
+  GAME
 }
-INIT
+
 
 
 GAME() {
